@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    .table {
+        @apply border border-slate-600
+    }
+    .btn-main {
+        @apply bg-blue-400 text-white font-semibold p-4 rounded-lg hover:bg-blue-600
+    }
+    .btn-save {
+        @apply bg-green-500 text-white font-semibold px-6 py-2 rounded-lg hover:bg-green-600
+    }
+    
+    .input {
+        @apply border px-4 mx-4
+    }
+    .delbtn {
+        @apply bg-red-600 text-white font-semibold px-6 py-2 rounded-md hover:bg-red-700
+    }
+    
+    .td-table {
+        @apply border w-full text-center p-2
+    }
+    
+}
